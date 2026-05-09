@@ -13,6 +13,8 @@ website:
         text: County Dashboard
       - href: graphs.qmd
         text: Graphs
+      - href: Maps.qmd
+        text: Maps
       - href: about.qmd
         text: About
     tools:
