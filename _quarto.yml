@@ -27,9 +27,6 @@ website:
         href: index.qmd
       - text: "County Dashboard"
         href: county-dashboard.qmd
-      - text: "Maps"
-        href: maps.qmd
-      - text: "Graphs"
         href: graphs.qmd
       - text: "About"
         href: about.qmd
