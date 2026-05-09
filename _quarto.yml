@@ -20,16 +20,17 @@ website:
         href: https://github.com/herporp88/Anders-herpor.github.io
 
   sidebar:
-    style: docked
-    search: true
-    contents:
-      - text: "Project Overview"
-        href: index.qmd
-      - text: "County Dashboard"
-        href: county-dashboard.qmd
-        href: graphs.qmd
-      - text: "About"
-        href: about.qmd
+   style: docked
+   search: true
+   contents:
+    - text: "Project Overview"
+      href: index.qmd
+    - text: "County Dashboard"
+      href: county-dashboard.qmd
+    - text: "Graphs"
+      href: graphs.qmd
+    - text: "About"
+      href: about.qmd
 
 format:
   html:
@@ -39,5 +40,3 @@ format:
     toc: true
     toc-location: right
     page-layout: full
-  
-    

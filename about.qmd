@@ -1,9 +1,5 @@
----
-title: "About"
----
 
-About this site
+<p><strong>About This Project</strong></p>
 
-```{r}
-1 + 1
-```
+This website was created as part of our SDS 264 Data Visualization course project at St. Olaf College.
+Our project explores land ownership patterns in Minnesota using publicly available geospatial and parcel data. The goal is to better understand how ownership varies across counties and to visualize trends using interactive maps and graphs.
