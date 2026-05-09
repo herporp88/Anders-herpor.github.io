@@ -3,20 +3,42 @@ project:
   output-dir: docs
 
 website:
-  title: "Anders-herpor.github.io"
+  title: "SDS 264 Project"
   navbar:
+    background: dark
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: county-dashboard.qmd
+        text: County Dashboard
+      - href: graphs.qmd
+        text: Graphs
+      - href: about.qmd
+        text: About
+    tools:
+      - icon: github
+        href: https://github.com/herporp88/Anders-herpor.github.io
+
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - text: "Project Overview"
+        href: index.qmd
+      - text: "County Dashboard"
+        href: county-dashboard.qmd
+      - text: "Maps"
+        href: maps.qmd
+      - text: "Graphs"
+        href: graphs.qmd
+      - text: "About"
+        href: about.qmd
 
 format:
   html:
     theme:
       - cosmo
-      - brand
     css: styles.css
     toc: true
-
-
-
+    toc-location: right
+    page-layout: full
