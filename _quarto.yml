@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Anders&herpor.github.io"
+  title: "Anders-herpor.github.io"
   navbar:
     left:
       - href: index.qmd
