@@ -35,8 +35,12 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - flatly
     css: styles.css
     toc: true
     toc-location: right
     page-layout: full
+    smooth-scroll: true
+    code-fold: false
+    code-tools: false
+    link-external-newwindow: false
