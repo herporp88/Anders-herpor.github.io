@@ -1,3 +1,17 @@
 ---
 title: "County-dashboard"
 ---
+
+Example plot:
+```{r}
+data <- ReadRDS("Data/isanti_parcels_sf.rds")
+
+labels <- lapply(data$OWNER_NAME, HTML)
+
+leaflet(data) |>
+  addTiles() |>
+  addPolygons(
+    label = labels
+  )
+```
+
