@@ -2,11 +2,76 @@
 title: "Graphs"
 ---
 
+One of the major issues with a decentralized system for tracking property data is that each county has their own system for tracking and storing data. This includes both what data they store as well as the variable names and format that they choose to store it in. As such, most of this analysis will be on individual counties.
+
+
 ```{r}
+#| echo: FALSE
+library(ggplot2)
+library(tidyverse)
 AitkinData <- as_tibble(readRDS("Data/aitkin_parcels_sf.rds"))
 
-AitkinData |>
+adjusted_aitkin <- AitkinData |>
   group_by(TPCLS1) |>
-  
+  summarize(
+    count = n(),
+    area = sum(as.integer(DEEDED_ACRES))
+  )
+
+
+# change axis titles
+adjusted_aitkin |>
+  arrange(desc(area)) |>
+  head(10) |>
+  ggplot(aes(y = fct_reorder(TPCLS1, area), x = area))+
+    geom_col() +
+    theme_minimal()
+
+adjusted_aitkin |>
+  arrange(desc(count)) |>
+  head(10) |>
+  ggplot(aes(y = fct_reorder(TPCLS1, count), x = count))+
+    geom_col() +
+    theme_minimal()
+```
+Aitkin county reports both land area as well as zoning code for each of their parcels. From this we can see that unsurprisingly the most common zoning is residential however it comes 6th in total area. Rural vacant land (no houses or farmland) is both high in area and number of parcels likely due to large forested areas owned by many different people. 
+
+
+```{r}
+#| echo: FALSE
+library(ggplot2)
+library(tidyverse)
+RamseyData <- as_tibble(readRDS("Data/ramsey_parcels_sf.rds"))
+
+RamseyData |> 
+  group_by(SiteCityName) |> 
+  summarize( 
+    n = n(), 
+    averageCost = mean(as.numeric(CostLandValue), na.rm = TRUE), 
+    medianCost = median(as.numeric(CostLandValue), na.rm = TRUE) ) |> 
+  arrange(desc(n)) |> 
+  head(19) |> 
+  ggplot(aes(y = fct_reorder(SiteCityName, n), x = n)) + 
+    geom_col() + 
+    theme_minimal()
+
+RamseyData |>
+  group_by(SiteCityName) |>
+  summarize(
+    n = n(),
+    averageCost = mean(as.numeric(CostLandValue), na.rm = TRUE),
+    medianCost = median(as.numeric(CostLandValue), na.rm = TRUE)
+  ) |>
+  arrange(desc(n)) |>
+  head(19) |>
+  pivot_longer(
+    cols = c(averageCost, medianCost),
+    names_to = "metric",
+    values_to = "cost"
+  ) |>
+  ggplot(aes(y = fct_reorder(SiteCityName, cost), x = cost, fill =  metric))+
+    geom_col(position = "dodge") +
+    theme_minimal()
 ```
 
+Ramsey County, being the biggest in our dataset, contains many different suburbs that we can look at. Comparing cost of property to count of property we see that the most populated areas: Saint Paul and Maplewood are on the lower side of property values while the less populated suburbs are on the higher side. Interestingly, Arden Hills shows the highest gap between median and average cost of property indicated a high density of inexpensive property offset by a lesser amount of dispproportionally expensive properties. 
