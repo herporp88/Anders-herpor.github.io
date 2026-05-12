@@ -1,12 +1,17 @@
 ---
 title: "County-dashboard"
+execute:
+  warning: false
+  message: false
 ---
 
 Example plot:
 ```{r}
+#| echo: FALSE
 library(sf)
 library(leaflet)
-data <- ReadRDS("Data/isanti_parcels_sf.rds")
+library(htmltools)
+data <- readRDS("Data/aitkin_parcels_sf.rds")
 
 labels <- lapply(data$OWNER_NAME, HTML)
 

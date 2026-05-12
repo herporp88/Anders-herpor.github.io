@@ -6,7 +6,8 @@ One of the major issues with a decentralized system for tracking property data i
 
 
 ```{r}
-#| echo: FALSE
+#| echo: false
+
 library(ggplot2)
 library(tidyverse)
 AitkinData <- as_tibble(readRDS("Data/aitkin_parcels_sf.rds"))
