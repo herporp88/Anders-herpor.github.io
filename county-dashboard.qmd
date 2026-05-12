@@ -4,6 +4,8 @@ title: "County-dashboard"
 
 Example plot:
 ```{r}
+library(sf)
+library(leaflet)
 data <- ReadRDS("Data/isanti_parcels_sf.rds")
 
 labels <- lapply(data$OWNER_NAME, HTML)
