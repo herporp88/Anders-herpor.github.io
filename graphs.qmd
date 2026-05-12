@@ -1,5 +1,8 @@
 ---
 title: "Graphs"
+execute:
+  warning: false
+  message: false
 ---
 
 One of the major issues with a decentralized system for tracking property data is that each county has their own system for tracking and storing data. This includes both what data they store as well as the variable names and format that they choose to store it in. As such, most of this analysis will be on individual counties.
@@ -10,6 +13,7 @@ One of the major issues with a decentralized system for tracking property data i
 
 library(ggplot2)
 library(tidyverse)
+library(sf)
 AitkinData <- as_tibble(readRDS("Data/aitkin_parcels_sf.rds"))
 
 adjusted_aitkin <- AitkinData |>
@@ -79,6 +83,7 @@ Ramsey County, being the biggest in our dataset, contains many different suburbs
 
 
 ```{r}
+#| echo: FALSE
 library(ggplot2)
 library(tidyverse)
 BigstoneData <- as_tibble(readRDS("Data/bigstone_parcels_sf.rds"))
