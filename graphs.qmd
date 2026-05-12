@@ -121,3 +121,4 @@ totalData |>
     theme_minimal()
 ```
 
+Sorting counties by average parcel size gives us an idea about how urban or rural a county is. Counties like hennepin and ramsey which contain very densly populated areas have a much lower average area than counties like beltrami or bigstone which are much more rural. 
