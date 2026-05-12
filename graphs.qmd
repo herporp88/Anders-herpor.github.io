@@ -75,3 +75,49 @@ RamseyData |>
 ```
 
 Ramsey County, being the biggest in our dataset, contains many different suburbs that we can look at. Comparing cost of property to count of property we see that the most populated areas: Saint Paul and Maplewood are on the lower side of property values while the less populated suburbs are on the higher side. Interestingly, Arden Hills shows the highest gap between median and average cost of property indicated a high density of inexpensive property offset by a lesser amount of dispproportionally expensive properties. 
+
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+BigstoneData <- as_tibble(readRDS("Data/bigstone_parcels_sf.rds"))
+
+files <- list.files(
+  path = "Data/",
+  pattern = "\\.rds$",
+  full.names = TRUE
+)
+
+totalData <- map_dfr(files, function(file) {
+
+  file_prefix <- sub("_.*$", "", basename(file))
+
+  dat <- readRDS(file)
+
+  # Column can contain either one so coerce to the same
+  area_col <- case_when(
+    "SHAPE.STArea()" %in% names(dat) ~ "SHAPE.STArea()",
+    "Shape.STArea()" %in% names(dat) ~ "Shape.STArea()",
+    "Shape__Area" %in% names(dat) ~ "Shape__Area",
+    TRUE ~ NA
+  )
+
+  tibble(
+    county = file_prefix,
+    parcelArea = if (!is.na(area_col)) {
+      mean(as.numeric(dat[[area_col]]), na.rm = TRUE)/ 43560 
+    } else {
+      NA
+    },
+    n = nrow(dat)
+  )
+})
+  
+totalData |>
+  arrange(desc(parcelArea)) |> 
+  head(19) |> 
+  ggplot(aes(y = fct_reorder(county, parcelArea), x = parcelArea)) + 
+    geom_col() + 
+    theme_minimal()
+```
+
