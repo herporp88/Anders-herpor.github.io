@@ -1,5 +1,16 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Background Information",
+    "section": "",
+    "text": "Our project examines how land ownership in Minnesota has changed over time using parcel-level data from the Minnesota Geospatial Information Office (MnGeo).We analyze variables such as parcel size, owner, land type, assessed value, and property taxes to understand patterns in ownership transfers, land use, and differences between private and public ownership.\nResearch Question: How has the rate of land ownership transfers in Minnesota changed over time?\nData Source: Minnesota Geospatial Information Office",
+    "crumbs": [
+      "Home",
+      "Project Overview"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "SDS 264 Project",
@@ -11,6 +22,7 @@
     ]
   },
   {
+<<<<<<< HEAD
     "objectID": "graphs.html",
     "href": "graphs.html",
     "title": "Graphs",
@@ -27,6 +39,13 @@
     "title": "County-dashboard",
     "section": "",
     "text": "Example plot:",
+=======
+    "objectID": "county-dashboard.html",
+    "href": "county-dashboard.html",
+    "title": "County Dashboard",
+    "section": "",
+    "text": "Minnesota Counties\n\n\nAitkin Anoka Becker Beltrami Benton Blue Earth Brown Carver Cass Chisago Clay Crow Wing Dakota Douglas Freeborn Goodhue Hennepin Isanti Itasca Kandiyohi McLeod Meeker Morrison Olmsted Otter Tail Pine Ramsey Rice Scott Sherburne St. Louis Stearns Steele Wabasha Washington Wright\n\n\n\n\nAitkin County\n\nPut Aitkin County map/graph here.\n\n\n\nAnoka County\n\nPut Anoka County map/graph here.\n\n\n\nBecker County\n\nPut Becker County map/graph here.\n\n\n\nBeltrami County\n\nPut Beltrami County map/graph here.\n\n\n\nBenton County\n\nPut Benton County map/graph here.\n\n\n\nBlue Earth County\n\nPut Blue Earth County map/graph here.\n\n\n\nBrown County\n\nPut Brown County map/graph here.\n\n\n\nCarver County\n\nPut Carver County map/graph here.\n\n\n\nCass County\n\nPut Cass County map/graph here.\n\n\n\nChisago County\n\nPut Chisago County map/graph here.\n\n\n\nClay County\n\nPut Clay County map/graph here.\n\n\n\nCrow Wing County\n\nPut Crow Wing County map/graph here.\n\n\n\nDakota County\n\nPut Dakota County map/graph here.\n\n\n\nDouglas County\n\nPut Douglas County map/graph here.\n\n\n\nFreeborn County\n\nPut Freeborn County map/graph here.\n\n\n\nGoodhue County\n\nPut Goodhue County map/graph here.\n\n\n\nHennepin County\n\nPut Hennepin County map/graph here.\n\n\n\nIsanti County\n\nPut Isanti County map/graph here.\n\n\n\nItasca County\n\nPut Itasca County map/graph here.\n\n\n\nKandiyohi County\n\nPut Kandiyohi County map/graph here.\n\n\n\nMcLeod County\n\nPut McLeod County map/graph here.\n\n\n\nMeeker County\n\nPut Meeker County map/graph here.\n\n\n\nMorrison County\n\nPut Morrison County map/graph here.\n\n\n\nOlmsted County\n\nPut Olmsted County map/graph here.\n\n\n\nOtter Tail County\n\nPut Otter Tail County map/graph here.\n\n\n\nPine County\n\nPut Pine County map/graph here.\n\n\n\nRamsey County\n\nPut Ramsey County map/graph here.\n\n\n\nRice County\n\nPut Rice County map/graph here.\n\n\n\nScott County\n\nPut Scott County map/graph here.\n\n\n\nSherburne County\n\nPut Sherburne County map/graph here.\n\n\n\nSt. Louis County\n\nPut St. Louis County map/graph here.\n\n\n\nStearns County\n\nPut Stearns County map/graph here.\n\n\n\nSteele County\n\nPut Steele County map/graph here.\n\n\n\nWabasha County\n\nPut Wabasha County map/graph here.\n\n\n\nWashington County\n\nPut Washington County map/graph here.\n\n\n\nWright County\n\nPut Wright County map/graph here.",
+>>>>>>> 010e8036a5f98b1e7e0a3aa66c68cd5d5bd14801
     "crumbs": [
       "Home",
       "County Dashboard"
