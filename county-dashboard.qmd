@@ -1,6 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "County-dashboard"
+title: "County-Dashboard"
 execute:
   warning: false
   message: false
