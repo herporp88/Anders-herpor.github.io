@@ -1,5 +1,16 @@
 [
   {
+    "objectID": "graphs.html",
+    "href": "graphs.html",
+    "title": "Graphs",
+    "section": "",
+    "text": "One of the major issues with a decentralized system for tracking property data is that each county has their own system for tracking and storing data. This includes both what data they store as well as the variable names and format that they choose to store it in. As such, most of this analysis will be on individual counties.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAitkin county reports both land area as well as zoning code for each of their parcels. From this we can see that unsurprisingly the most common zoning is residential however it comes 6th in total area. Rural vacant land (no houses or farmland) is both high in area and number of parcels likely due to large forested areas owned by many different people.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRamsey County, being the biggest in our dataset, contains many different suburbs that we can look at. Comparing cost of property to count of property we see that the most populated areas: Saint Paul and Maplewood are on the lower side of property values while the less populated suburbs are on the higher side. Interestingly, Arden Hills shows the highest gap between median and average cost of property indicated a high density of inexpensive property offset by a lesser amount of dispproportionally expensive properties.\n\n\n\n\n\n\n\n\n\nSorting counties by average parcel size gives us an idea about how urban or rural a county is. Counties like hennepin and ramsey which contain very densly populated areas have a much lower average area than counties like beltrami or bigstone which are much more rural.",
+    "crumbs": [
+      "Home",
+      "Graphs"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Background Information",
@@ -22,30 +33,11 @@
     ]
   },
   {
-<<<<<<< HEAD
-    "objectID": "graphs.html",
-    "href": "graphs.html",
-    "title": "Graphs",
-    "section": "",
-    "text": "One of the major issues with a decentralized system for tracking property data is that each county has their own system for tracking and storing data. This includes both what data they store as well as the variable names and format that they choose to store it in. As such, most of this analysis will be on individual counties.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAitkin county reports both land area as well as zoning code for each of their parcels. From this we can see that unsurprisingly the most common zoning is residential however it comes 6th in total area. Rural vacant land (no houses or farmland) is both high in area and number of parcels likely due to large forested areas owned by many different people.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRamsey County, being the biggest in our dataset, contains many different suburbs that we can look at. Comparing cost of property to count of property we see that the most populated areas: Saint Paul and Maplewood are on the lower side of property values while the less populated suburbs are on the higher side. Interestingly, Arden Hills shows the highest gap between median and average cost of property indicated a high density of inexpensive property offset by a lesser amount of dispproportionally expensive properties.\n\n\n\n\n\n\n\n\n\nSorting counties by average parcel size gives us an idea about how urban or rural a county is. Counties like hennepin and ramsey which contain very densly populated areas have a much lower average area than counties like beltrami or bigstone which are much more rural.",
-    "crumbs": [
-      "Home",
-      "Graphs"
-    ]
-  },
-  {
     "objectID": "county-dashboard.html",
     "href": "county-dashboard.html",
-    "title": "County-dashboard",
+    "title": "County-Dashboard",
     "section": "",
-    "text": "Example plot:",
-=======
-    "objectID": "county-dashboard.html",
-    "href": "county-dashboard.html",
-    "title": "County Dashboard",
-    "section": "",
-    "text": "Minnesota Counties\n\n\nAitkin Anoka Becker Beltrami Benton Blue Earth Brown Carver Cass Chisago Clay Crow Wing Dakota Douglas Freeborn Goodhue Hennepin Isanti Itasca Kandiyohi McLeod Meeker Morrison Olmsted Otter Tail Pine Ramsey Rice Scott Sherburne St. Louis Stearns Steele Wabasha Washington Wright\n\n\n\n\nAitkin County\n\nPut Aitkin County map/graph here.\n\n\n\nAnoka County\n\nPut Anoka County map/graph here.\n\n\n\nBecker County\n\nPut Becker County map/graph here.\n\n\n\nBeltrami County\n\nPut Beltrami County map/graph here.\n\n\n\nBenton County\n\nPut Benton County map/graph here.\n\n\n\nBlue Earth County\n\nPut Blue Earth County map/graph here.\n\n\n\nBrown County\n\nPut Brown County map/graph here.\n\n\n\nCarver County\n\nPut Carver County map/graph here.\n\n\n\nCass County\n\nPut Cass County map/graph here.\n\n\n\nChisago County\n\nPut Chisago County map/graph here.\n\n\n\nClay County\n\nPut Clay County map/graph here.\n\n\n\nCrow Wing County\n\nPut Crow Wing County map/graph here.\n\n\n\nDakota County\n\nPut Dakota County map/graph here.\n\n\n\nDouglas County\n\nPut Douglas County map/graph here.\n\n\n\nFreeborn County\n\nPut Freeborn County map/graph here.\n\n\n\nGoodhue County\n\nPut Goodhue County map/graph here.\n\n\n\nHennepin County\n\nPut Hennepin County map/graph here.\n\n\n\nIsanti County\n\nPut Isanti County map/graph here.\n\n\n\nItasca County\n\nPut Itasca County map/graph here.\n\n\n\nKandiyohi County\n\nPut Kandiyohi County map/graph here.\n\n\n\nMcLeod County\n\nPut McLeod County map/graph here.\n\n\n\nMeeker County\n\nPut Meeker County map/graph here.\n\n\n\nMorrison County\n\nPut Morrison County map/graph here.\n\n\n\nOlmsted County\n\nPut Olmsted County map/graph here.\n\n\n\nOtter Tail County\n\nPut Otter Tail County map/graph here.\n\n\n\nPine County\n\nPut Pine County map/graph here.\n\n\n\nRamsey County\n\nPut Ramsey County map/graph here.\n\n\n\nRice County\n\nPut Rice County map/graph here.\n\n\n\nScott County\n\nPut Scott County map/graph here.\n\n\n\nSherburne County\n\nPut Sherburne County map/graph here.\n\n\n\nSt. Louis County\n\nPut St. Louis County map/graph here.\n\n\n\nStearns County\n\nPut Stearns County map/graph here.\n\n\n\nSteele County\n\nPut Steele County map/graph here.\n\n\n\nWabasha County\n\nPut Wabasha County map/graph here.\n\n\n\nWashington County\n\nPut Washington County map/graph here.\n\n\n\nWright County\n\nPut Wright County map/graph here.",
->>>>>>> 010e8036a5f98b1e7e0a3aa66c68cd5d5bd14801
+    "text": "Example plot:\n\n\n\n\n\n\n======= title: “County Dashboard” —\n\nMinnesota Counties\n\n\nAitkin Anoka Becker Beltrami Benton Blue Earth Brown Carver Cass Chisago Clay Crow Wing Dakota Douglas Freeborn Goodhue Hennepin Isanti Itasca Kandiyohi McLeod Meeker Morrison Olmsted Otter Tail Pine Ramsey Rice Scott Sherburne St. Louis Stearns Steele Wabasha Washington Wright\n\n\n\n\nAitkin County\n\nPut Aitkin County map/graph here.\n\n\n\nAnoka County\n\nPut Anoka County map/graph here.\n\n\n\nBecker County\n\nPut Becker County map/graph here.\n\n\n\nBeltrami County\n\nPut Beltrami County map/graph here.\n\n\n\nBenton County\n\nPut Benton County map/graph here.\n\n\n\nBlue Earth County\n\nPut Blue Earth County map/graph here.\n\n\n\nBrown County\n\nPut Brown County map/graph here.\n\n\n\nCarver County\n\nPut Carver County map/graph here.\n\n\n\nCass County\n\nPut Cass County map/graph here.\n\n\n\nChisago County\n\nPut Chisago County map/graph here.\n\n\n\nClay County\n\nPut Clay County map/graph here.\n\n\n\nCrow Wing County\n\nPut Crow Wing County map/graph here.\n\n\n\nDakota County\n\nPut Dakota County map/graph here.\n\n\n\nDouglas County\n\nPut Douglas County map/graph here.\n\n\n\nFreeborn County\n\nPut Freeborn County map/graph here.\n\n\n\nGoodhue County\n\nPut Goodhue County map/graph here.\n\n\n\nHennepin County\n\nPut Hennepin County map/graph here.\n\n\n\nIsanti County\n\nPut Isanti County map/graph here.\n\n\n\nItasca County\n\nPut Itasca County map/graph here.\n\n\n\nKandiyohi County\n\nPut Kandiyohi County map/graph here.\n\n\n\nMcLeod County\n\nPut McLeod County map/graph here.\n\n\n\nMeeker County\n\nPut Meeker County map/graph here.\n\n\n\nMorrison County\n\nPut Morrison County map/graph here.\n\n\n\nOlmsted County\n\nPut Olmsted County map/graph here.\n\n\n\nOtter Tail County\n\nPut Otter Tail County map/graph here.\n\n\n\nPine County\n\nPut Pine County map/graph here.\n\n\n\nRamsey County\n\nPut Ramsey County map/graph here.\n\n\n\nRice County\n\nPut Rice County map/graph here.\n\n\n\nScott County\n\nPut Scott County map/graph here.\n\n\n\nSherburne County\n\nPut Sherburne County map/graph here.\n\n\n\nSt. Louis County\n\nPut St. Louis County map/graph here.\n\n\n\nStearns County\n\nPut Stearns County map/graph here.\n\n\n\nSteele County\n\nPut Steele County map/graph here.\n\n\n\nWabasha County\n\nPut Wabasha County map/graph here.\n\n\n\nWashington County\n\nPut Washington County map/graph here.\n\n\n\nWright County\n\nPut Wright County map/graph here.\n\n\n\n\n\n\n\n\n010e8036a5f98b1e7e0a3aa66c68cd5d5bd14801",
     "crumbs": [
       "Home",
       "County Dashboard"
