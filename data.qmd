@@ -1,0 +1,17 @@
+---
+title: "data"
+format: html
+---
+
+Due to the significant differences in data across the different counties, here are some insights bout those data differences: 
+
+Only 24 of the 87 counties have public databases of their parcel information. 
+
+Of those, only 19 contain any information besides address and owner name.
+
+Ramsey County contains the most additional information with 119 data columns. 
+Clearwater contains the least with only 8.
+
+Olmsted County has the most recent data with their database being updated in early 2026, while cook has the oldest being updated in 2022. 
+
+Within those 24 counties there are: 20 different ways to say owner name, 22 different ways to specify address, 5 different ways to specify ArcGIS parcel geometry, and 4 different ways to specify parcel ID. 

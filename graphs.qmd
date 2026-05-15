@@ -30,14 +30,16 @@ adjusted_aitkin |>
   head(10) |>
   ggplot(aes(y = fct_reorder(TPCLS1, area), x = area))+
     geom_col() +
-    theme_minimal()
+    theme_minimal() +
+    labs(x = "Parcel Area", y = "")
 
 adjusted_aitkin |>
   arrange(desc(count)) |>
   head(10) |>
   ggplot(aes(y = fct_reorder(TPCLS1, count), x = count))+
     geom_col() +
-    theme_minimal()
+    theme_minimal() +
+    labs(x = "Number of Parcels", y = "")
 ```
 Aitkin county reports both land area as well as zoning code for each of their parcels. From this we can see that unsurprisingly the most common zoning is residential however it comes 6th in total area. Rural vacant land (no houses or farmland) is both high in area and number of parcels likely due to large forested areas owned by many different people. 
 
@@ -58,7 +60,8 @@ RamseyData |>
   head(19) |> 
   ggplot(aes(y = fct_reorder(SiteCityName, n), x = n)) + 
     geom_col() + 
-    theme_minimal()
+    theme_minimal() +
+    labs(x = "Number of Parcels", y = "")
 
 RamseyData |>
   group_by(SiteCityName) |>
@@ -76,7 +79,8 @@ RamseyData |>
   ) |>
   ggplot(aes(y = fct_reorder(SiteCityName, cost), x = cost, fill =  metric))+
     geom_col(position = "dodge") +
-    theme_minimal()
+    theme_minimal() +
+    labs(x = "Parcel Cost", y = "")
 ```
 
 Ramsey County, being the biggest in our dataset, contains many different suburbs that we can look at. Comparing cost of property to count of property we see that the most populated areas: Saint Paul and Maplewood are on the lower side of property values while the less populated suburbs are on the higher side. Interestingly, Arden Hills shows the highest gap between median and average cost of property indicated a high density of inexpensive property offset by a lesser amount of dispproportionally expensive properties. 
@@ -124,7 +128,8 @@ totalData |>
   head(19) |> 
   ggplot(aes(y = fct_reorder(county, parcelArea), x = parcelArea)) + 
     geom_col() + 
-    theme_minimal()
+    theme_minimal() +
+    labs(x = "Average Parcel Area", y = "")
 ```
 
 Sorting counties by average parcel size gives us an idea about how urban or rural a county is. Counties like hennepin and ramsey which contain very densly populated areas have a much lower average area than counties like beltrami or bigstone which are much more rural. 
