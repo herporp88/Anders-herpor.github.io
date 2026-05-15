@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "SDS 264 Project"
+  title: "Minnesota Land Ownership"
   navbar:
     background: dark
     left:
