@@ -22,10 +22,6 @@ leaflet(data) |>
   )
 ```
 
-=======
-title: "County Dashboard"
----
-
 <h2 style="font-size: 2rem;">Minnesota Counties</h2>
 
 <div class="county-grid">
@@ -322,4 +318,3 @@ Put Washington County map/graph here.
 Put Wright County map/graph here.
 
 </details>
->>>>>>> 010e8036a5f98b1e7e0a3aa66c68cd5d5bd14801
