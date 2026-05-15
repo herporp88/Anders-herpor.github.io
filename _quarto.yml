@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Minesota Land Ownership"
+  title: "Minnesota Land Ownership"
   navbar:
     background: dark
     left:
