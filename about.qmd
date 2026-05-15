@@ -1,5 +1,5 @@
 
-<p style="text-align: center;"><strong>Project Overview</strong></p>
+<p style="text-align: center;"><strong>Background Information</strong></p>
 
 This project examines how land ownership patterns in Minnesota have changed over time using parcel-level data from the Minnesota Geospatial Information Office. Our primary goal is to analyze the rate at which land parcels transfer from one owner to another and to identify trends in ownership among individuals, corporations, and government entities. By studying these changes, we aim to better understand how land ownership influences economic development, land use, taxation, and environmental management across the state.
 
