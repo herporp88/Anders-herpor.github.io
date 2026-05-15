@@ -12,24 +12,17 @@ Our project examines how land ownership in Minnesota has changed over time using
 
 ### Variable Description
 
-**Parcel Size**: refers to the physical size of each piece of land, typically measured in acres or square feet, allowing for comparisons across properties.
-
-**Owner**: identifies the individual, company, or organization that holds legal ownership of the parcel, which is essential for tracking changes in ownership over time.
-
-**Location**: provides a general geographic description of where the parcel is situated. 
-Address: gives a more precise, standardized identifier for the property. 
-
-**District**: indicates the administrative or geographic area (such as a county or zoning district) in which the parcel is located, helping group properties for regional analysis.
-
-**Land Type**: describes how the land is used, such as residential, commercial, agricultural, or industrial, offering insight into patterns of land use. 
-
-**Land Evaluation**: represents the assessed value or quality of the land, often determined for taxation purposes, and reflects its economic worth. 
-
-**Tax (2026)**: indicates the amount of property tax assigned to the parcel for 2026, providing information about the parcel's financial obligations. Together, these variables enable a comprehensive analysis of land ownership, use, value, and change over time.
+**Parcel Size**: refers to the physical size of each piece of land, typically measured in acres or square feet, allowing for comparisons across properties.  
+**Owner**: identifies the individual, company, or organization that holds legal ownership of the parcel, which is essential for tracking changes in ownership over time. 
+**Location**: provides a general geographic description of where the parcel is situated.   
+**Address**: gives a more precise, standardized identifier for the property.  
+**District**: indicates the administrative or geographic area (such as a county or zoning district) in which the parcel is located, helping group properties for regional analysis.  
+**Land Type**: describes how the land is used, such as residential, commercial, agricultural, or industrial, offering insight into patterns of land use.  
+**Land Evaluation**: represents the assessed value or quality of the land, often determined for taxation purposes, and reflects its economic worth.  
+**Tax (2026)**: indicates the amount of property tax assigned to the parcel for 2026, providing information about the parcel's financial obligations. Together, these variables enable a comprehensive analysis of land ownership, use, value, and change over time. 
 
 ### Research Question
 How has the rate of land ownership transfers in Minnesota changed over time?
-
 
 ### Data Source 
 [Minnesota Geospatial Information Office](https://www.mngeo.state.mn.us/chouse/land_own_property.html)
