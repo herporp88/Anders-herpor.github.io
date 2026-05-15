@@ -6,7 +6,7 @@ title: "Tracking Land Ownership Changes in Minnesota"
 
 ::: {.column width="55%"}
 
-## Project Overview
+### Project Overview
 
 Our project examines how land ownership in Minnesota has changed over time using parcel-level data from the Minnesota Geospatial Information Office (MnGeo).We analyze variables such as parcel size, owner, land type, assessed value, and property taxes to understand patterns in ownership transfers, land use, and differences between private and public ownership.
 
@@ -27,11 +27,11 @@ Address: gives a more precise, standardized identifier for the property.
 
 **Tax (2026)**: indicates the amount of property tax assigned to the parcel for 2026, providing information about the parcel's financial obligations. Together, these variables enable a comprehensive analysis of land ownership, use, value, and change over time.
 
-## Research Question
+### Research Question
 How has the rate of land ownership transfers in Minnesota changed over time?
 
 
-## Data Source 
+### Data Source 
 [Minnesota Geospatial Information Office](https://www.mngeo.state.mn.us/chouse/land_own_property.html)
 
 :::
