@@ -1,5 +1,5 @@
 ---
-title: "Background Information"
+title: "Tracking Land Ownership Changes in Minnesota"
 ---
 
 ::: {.columns}
