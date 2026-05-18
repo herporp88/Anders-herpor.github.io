@@ -33,6 +33,9 @@ website:
       href: graphs.qmd
     - text: "About"
       href: about.qmd
+    - text: "About our Data"
+      href: data.qmd
+      
 
 format:
   html:
